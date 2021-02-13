@@ -1,4 +1,4 @@
-#!/vim/bash.bashrc
+#!/vim/bash
 #
 # [Open Source] - [Código Abierto]
 #
