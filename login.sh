@@ -1,4 +1,4 @@
-#!/vim/bash.bashrc
+#!/vim/bash
 trap ctrl_c 2
 PASSWORD="key"
 DATE=$(date)
@@ -48,7 +48,7 @@ echo -e "${verde}
               ───────────────────────║  ╚═╗╚═╝║
               C O M U N I D A D      ╚════╚═══╝
               ${verde}██████████${blanco}█████████████${rojo}██████████
-	      >>>${blanco}${DATE}${verde}<<<
+	      ${verde}>>>${blanco}${DATE}${verde}<<<
 "${blanco}
 }
 ctrl_c(){
