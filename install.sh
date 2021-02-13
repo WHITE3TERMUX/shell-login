@@ -26,7 +26,7 @@ echo -e -n "${verde}
 read -r KEY
 sleep 0.5
 sed -i "s/key/${KEY}/" login.sh
-echo -e "source /data/data/com.termux/files/home/BannerLoging/login.sh" >> ${PREFIX}/etc/bash.bashrc
+echo -e "source /data/data/com.termux/files/home/BannerLogin/login.sh" >> ${PREFIX}/etc/bash.bashrc
 echo -e "${verde}
 ┌═════════════════┐
 █ ${blanco}LOGIN INSTALADO ${verde}█
