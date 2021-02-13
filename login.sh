@@ -1,4 +1,4 @@
-banner () {
+#!/bin/bash
 clear
 
 echo""
