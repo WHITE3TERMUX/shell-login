@@ -1,4 +1,4 @@
-#!/vim/bash
+#!/bim/bash
 trap ctrl_c 2
 PASSWORD="key"
 DATE=$(date)
@@ -50,8 +50,8 @@ echo -e "${verde}
             ${verde}██████████${blanco}█████████████${rojo}██████████
 	    ${verde}>>>${blanco}${DATE}${verde}<<<
 "${blanco}
-PS1="\[\e[1;32m\]╔════[\[\e[37m\]\T\[\e[1;32m\]]═══\e[1;32m[\e[37mScorpio28\e[37m\e[1;32m]═══[\[\e[31m\]\e[0;35m\W\[\e[1;32m]
-╚════<\e[0;35m$\e[1;32m>\e[0;32m "
+PS1="\[\e[1;32m\]╭──[\[\e[1;37m\]\T\[\e[1;32m\]]────\e[1;32m[\e[37mScorpio28\e[37m\e[1;32m]────[\[\e[37m\]\e[1;37m\#\[\e[1;32m\]]\e[1;32m
+\e[1;32m╰──[\e[0;35m\W\e[1;32m]───>\e[1;32m "
 }
 ctrl_c(){
 echo -e "${rojo}
