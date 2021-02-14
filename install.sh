@@ -1,4 +1,4 @@
-#!/vim/bash
+#!/bim/bash
 #
 # [Open Source] - [Código Abierto]
 #
