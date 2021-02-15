@@ -23,6 +23,7 @@ ls
 chmod +x install.sh login.sh
 
 bash install.sh
+(Aqui pide un usuario ingresen el que deseen no lo olviden ya que con ese ingresaran a la terminal)
 
 bash login.sh
 
