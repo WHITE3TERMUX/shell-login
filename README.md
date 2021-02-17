@@ -10,7 +10,7 @@ ls
 
 CIERREN Y VUELVAN ABRIR LA TERMINAL
 
-INSTALACION DE LA HERRAMIENTA ACTUALIZADA SOLO INSTALEN Y LES QUEDARA COOL no agan lo del final del video solo instalen la pura gerramienta.
+INSTALACION DE LA HERRAMIENTA ACTUALIZADA SOLO INSTALEN Y LES QUEDARA COOL no agan lo del final del video solo instalen la pura herramienta.
 
 apt update && apt upgrade -y
 
