@@ -8,6 +8,8 @@ rm -rf motd
 
 ls
 
+CIERREN Y VUELVAN ABRIR LA TERMINAL
+
 INSTALACION DE LA HERRAMIENTA ACTUALIZADA SOLO INSTALEN Y LES QUEDARA COOL no agan lo del final nel video solo instalen la pura gerramienta.
 
 apt update && apt upgrade -y
