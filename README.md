@@ -1,7 +1,6 @@
-Shell-Login es una herramienta creada por Scorpio28, cuya función es un login para poder ingresar a la terminal dando un elegante banner de la comunidad Informatic in Termux.
+Shell-Login es una herramienta creada en bash por Scorpio28 cuya función es un banner+login para poder acceder a la terminal de manera segura con un login (clave de acceso) y evitar intrusos.
 
-ELIMINAR EL ARCHIVO MOTD
-(archivo de bienvenida de termux) SI ES LA PRIMERA VEZ QUE SE USA LA TERMINAL.
++++ELIMINA ARCHIVO MOTD+++
 
 cd ../usr/etc/;ls
 
@@ -9,9 +8,9 @@ rm -rf motd
 
 ls
 
-Cierra la terminal y vuelve abrirla
+INSTALACION DE LA HERRAMIENTA ACTUALIZADA SOLO INSTALEN Y LES QUEDARA COOL no agan lo del final nel video solo instalen la pura gerramienta.
 
-INSTALL IN TERMUX
+apt update && apt upgrade -y
 
 pkg install git -y
 
@@ -21,10 +20,9 @@ cd shell-login
 
 ls
 
-chmod +x install.sh login.sh
+chmod +x setup.sh login.sh
 
-bash install.sh
-(Aqui pide un usuario ingresen el que deseen no lo olviden ya que con ese ingresaran a la terminal)
+bash setup.sh (Aqui pide un usuario ingresen el que deseen no lo olviden ya que con ese ingresaran a la terminal)
 
 bash login.sh
 
