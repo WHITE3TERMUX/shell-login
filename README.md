@@ -1,5 +1,5 @@
 # Shell-Login
-Es una herramienta creada en bash por Scorpio28 cuya función es un banner+login para poder acceder a la terminal de manera segura con un login (clave de acceso) y evitar intrusos.
+Es una herramienta creada en bash cuya función es un banner+login para poder acceder a la terminal de manera segura con un login (clave de acceso) y evitar intrusos.
 
 # +++ELIMINA ARCHIVO MOTD+++
 
